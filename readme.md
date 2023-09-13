@@ -2,9 +2,16 @@
 
 ## Introduction 
 This GIT is the implementation of the paper 《MaDE: Multi-scale Decision Enhancement for Multi-agent Reinforcement Learning》.
-In this work, we introduces a novel methodology, termed \textbf{M}ulti-sc\textbf{a}le \textbf{D}ecision \textbf{E}nhancement (\nameOurs), anchored by a dual-wise bisimulation framework for pre-training agent encoders. The~\nameOurs~framework aims to facilitate decision-making across three pivotal dimensions: macroscale awareness, mesoscale coordination, and microscale insight. 
-At the macro level, a pre-trained global encoder captures a situational awareness map to guide overall strategies. At the meso level, specialized 
-local encoders generate cluster-based representations to promote inter-agent cooperation. At the micro level, individual agents focus on the accurate decision-making process. 
+
+In this work, we introduce a novel methodology, termed **M**ulti-sc**a**le **D**ecision **E**nhancement (MaDE), anchored by a dual-wise bisimulation framework for pre-training agent encoders. 
+
+The MaDE framework aims to facilitate decision-making across three pivotal dimensions: macroscale awareness, mesoscale coordination, and microscale insight. 
+
+At the macro level, a pre-trained global encoder captures a situational awareness map to guide overall strategies. 
+
+At the meso level, specialized local encoders generate cluster-based representations to promote inter-agent cooperation. 
+
+At the micro level, individual agents focus on the accurate decision-making process. 
 
 
 ## Environments supported:
