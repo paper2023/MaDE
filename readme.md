@@ -33,23 +33,25 @@ conda env create -f environment.yml
 
 
 ## Training
+
 1. we use CN as an example, install package:
 
-```
+``` Python
 cd CN
 pip install -e .
 ```
 
 2. pre-train the dual-wise bisimulation
 
-```
+
+``` Python
 cd CN/onpolicy/scripts/train/0_offline_train_states
 CUDA_VISIBLE_DEVICES=0 python train_state_6agents_cuda.py
 ```
 
 3. train the MaDE
 
-```
+``` Python
 cd CN/onpolicy/scripts/train/2_train
 python train_mpe_ours.py
 
