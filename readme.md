@@ -1,4 +1,4 @@
-# GCS
+# MaDE
 
 ## Introduction 
 This GIT is the implementation of the paper 《MaDE: Multi-scale Decision Enhancement for Multi-agent Reinforcement Learning》.
