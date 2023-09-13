@@ -28,11 +28,8 @@ At the micro level, individual agents focus on the accurate decision-making proc
 conda env create -f environment.yml
 ```
 
-```
-
-
-
 ## Training
+
 
 1. we use CN as an example, install package:
 
